@@ -28,3 +28,27 @@ Supervised learning can be used for both regression and classification tasks. In
 We predict a **continuous numerical** value as the _output_ based on the _input_ features. It involves finding the **relationship** between the **_independent variables_** (input features) and **_dependent variable_** (output) by fitting a _function_ to the training data. The fitted function can then be used to make predictions on new data points. The most common regression algorithms are linear and polynomial regression, decision tree, random forrest, support vector machine (SVM), nerual networks. 
 #### Classification
 In this type of machine learning the goal is to predict a **categorical** variable or label based on the input features. The input features can be continuous or discrete, and the output variable is a **_class or category_**. The classification can be binary (two classes) or multi-class (more than two classes). There are several algorithms used for classification tasks such as logistic regression, decision trees, random forests, support vector machines (SVMs), and neural networks, among others. The choice of algorithm depends on the specific task, the characteristics of the dataset, and the performance metrics used to evaluate the model.
+
+----------------
+
+### The 4 steps to create an efficient Machine Learning model
+
+#### 1st step: The Dataset 
+
+The first step in creating an efficient machine learning model is to preprocess the data. This involves cleaning the data, dealing with missing values, and handling outliers. It also involves converting the data into a suitable format for the model to work with, such as converting categorical variables into numerical values. This step is critical because the quality of the data has a significant impact on the accuracy of the model.
+
+#### 2nd Step: The Model selection
+
+The third step is to select an appropriate algorithm for the problem at hand and train the model on the data. The choice of algorithm depends on several factors such as the type of problem (classification, regression, etc.), the size and complexity of the dataset, and the performance metrics used to evaluate the model. It's important to split the data into training and testing sets to evaluate the performance of the model on unseen data.
+
+#### 3rd Step: Cost Function 
+
+In machine learning, the cost function is a measure of how well a machine learning model is performing on a given dataset. The cost function calculates the difference between the predicted output and the actual output for a given set of input features. The goal of the model is to minimize the cost function, i.e., to reduce the difference between the predicted output and the actual output as much as possible. 
+
+#### 4th Step: Optimisation Algorithm
+
+The optimization algorithm iteratively adjusts the model's parameters to minimize the cost function. In each iteration, the algorithm computes the gradient of the cost function with respect to the model parameters and updates the parameters accordingly to move in the direction of steepest descent. The learning rate is another important hyperparameter that controls the size of the step taken in each iteration. 
+
+
+
+
