@@ -56,7 +56,7 @@ The optimization algorithm iteratively adjusts the model's parameters to minimiz
 Linear regression is a  statistical model that is simple to implement and understand, it's one of the first  algorithm that helped me understand the basic of machine learning.  Linear regression is a method of prediction in which the dependent variable (y) is modeled as a linear function of one or more independent variables (x1,x2,x3...). This algorithm has two types: **Simple Linear Regression** and **Multiple Linear Regression**. Simple Linear Regression uses only one independent (x) variable while Multiple Linear Regression uses multiple independent variables (x1,x2,x3...) like age, height etc.
 
 ----
-1. The equation for simple linear regression is:
+1. [simple linear regression](https://github.com/Rezquellah/ML-Intro/blob/main/Simple_Linear_Regression.ipynb)
 
 y = b + ax
 
@@ -73,7 +73,7 @@ where:
 This equation describes a straight line relationship between x and y. The goal of linear regression is to find the values of **"a"** and **"b"** that minimize the distance between the predicted values of y and the actual values of y in the data. This is typically done using a method called least squares regression.
 
 
-2. The formula for multiple linear regression is:
+2. [Multiple Linear Regression](https://github.com/Rezquellah/ML-Intro/blob/main/Polynomial_Regression.ipynb)
 
 y = b0 + b1x1 + b2x2 + ... + bnxn + ε
 
@@ -119,4 +119,12 @@ Hypothesis testing: Hypothesis testing can be used to test the significance of t
 *Non-linear Relationships: If the data has a non-linear relationship, linear regression won't be able to capture it. For example, if we're trying to predict the price of gold based on its weight and purity (or vice versa), you'll need another method of analysis.
 
 *Outliers: An outlier is an observation that falls outside of expected values or trends in your dataset, For example, if someone accidentally enters an incorrect value into their spreadsheet when calculating their age (e.g., typing "80" instead of "20"), this would be considered an outlier because it doesn't fit with what we know about human aging patterns across populations at large; however if we were looking at just one person's life span rather than many people's lifespans together then this would still be considered valid data even though it doesn't conform with general trends seen elsewhere within our sample size."
+
+-------------
+
+I have created a complete project that predict [fish weigh](https://github.com/Rezquellah/Fish_Weight_Prediction). The project includes exploratory data analysis, feature engineering, and model building and evaluation. I have also deployed the app in heroku at https://myfishweight.herokuapp.com/ as a container. 
+
+
+
+
 
